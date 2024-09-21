@@ -30,3 +30,9 @@ header {
     align-items: center;
     font-size: medium;
 }
+
+/* Logo */
+#logo {
+    max-height: 70px;
+    padding-right: 10px;
+}
