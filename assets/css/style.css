@@ -54,3 +54,13 @@ button:hover {
     border-style: none;
     font-size: x-large;
 }
+
+/* Restart button */
+#restart-btn{
+    border-radius: 20px;
+    padding: 0 10px;
+    background-color: #6a39ce24;
+    color: antiquewhite;
+    font-size: inherit;
+    font-family: inherit;
+}
