@@ -64,3 +64,10 @@ button:hover {
     font-size: inherit;
     font-family: inherit;
 }
+
+/* Main content */
+main {
+    /* Make main element take any surplus space to push footer down*/
+    flex: 1 0 auto;
+    margin-top: 5%;
+}
