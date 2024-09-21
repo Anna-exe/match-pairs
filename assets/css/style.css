@@ -87,11 +87,16 @@ main {
     flex-wrap: wrap;
     border-radius: 5%;
     margin: 2px;
+    transition: transform .5s;
 }
 
 .card img {
     border-radius: inherit;
     width: 100%;
+}
+
+.card:active {
+    transform: scale(.97);
 }
 
 /* Footer */
