@@ -79,7 +79,14 @@ main {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     padding: 5% 0;
 }
- 
+
+/* Cards styling */
+.card {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* Footer */
 footer {
     padding: 15px 0;
