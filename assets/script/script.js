@@ -63,5 +63,11 @@ function loadCards(){
             /** Open card */
             function openCard(){
                 this.classList.add('cardOpen');
+
+                setTimeout(
+                    /** Matching */
+                    function matching(){
+
+                },500)
             }
         }
