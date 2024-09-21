@@ -23,6 +23,12 @@ function musicControls() {
     }
 }
 
+/** Reset game */
+function reset(){
+    game.innerHTML = '';
+    loadCards();
+}
+
 /** Load cards */
 function loadCards(){
     var game = document.getElementById('game');
@@ -81,7 +87,7 @@ function loadCards(){
                             if(document.querySelectorAll('.cardMatch').length == cards.length){
                                 alert('You matched all cards!')
                             }
-                            
+
                         } else { // Close cards if not matched
                             cardOpen[1].classList.remove('cardOpen')
                             cardOpen[0].classList.remove('cardOpen')
