@@ -46,10 +46,14 @@ cards.sort(
     /** Shuffle cards */
     function shuffle(){return 0.5 - Math.random()
     });
-    
+
     cards.forEach(
         /** Display card images */
         function display(cards) {
             var cardDiv = `<div class='card'><img src='${cards.src}' alt='${cards.alt}'/></div>`;
             game.innerHTML += cardDiv;
         });
+
+        var card = document.querySelectorAll('.card');
+        /* Click event listener */
+        card.forEach((card) => card.addEventListener('click', openCard));
