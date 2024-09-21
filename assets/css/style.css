@@ -140,4 +140,8 @@ footer {
         gap: 50px;
         padding-top: 10px;
     }
+    #game {
+        width:80vw;
+        gap:10px
+    }
 }
