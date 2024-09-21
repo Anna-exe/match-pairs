@@ -107,6 +107,15 @@ main {
     transition: all .5s;
 }
 
+/* Card rotation */
+.cardOpen {
+    transform: rotateY(180deg);
+}
+
+.cardMatch {
+    transform: rotateY(180deg);
+}
+
 /* Footer */
 footer {
     padding: 15px 0;
