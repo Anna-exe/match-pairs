@@ -58,7 +58,7 @@ button:hover {
 /* Restart button */
 #restart-btn{
     border-radius: 20px;
-    padding: 0 10px;
+    padding: 0 40px;
     background-color: #6a39ce24;
     color: antiquewhite;
     font-size: inherit;
@@ -76,7 +76,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    padding: 5% 0;
+    padding: 3% 0;
 }
 
 /* Cards styling */
