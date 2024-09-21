@@ -21,3 +21,12 @@ body {
     height: 100vh;
     align-items: center;
 }
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    align-items: center;
+    font-size: medium;
+}
