@@ -57,3 +57,8 @@ cards.sort(
         var card = document.querySelectorAll('.card');
         /* Click event listener */
         card.forEach((card) => card.addEventListener('click', openCard));
+        
+        /** Open card */
+        function openCard(){
+            this.classList.add('cardOpen');
+        }
