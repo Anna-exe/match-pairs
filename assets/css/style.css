@@ -26,7 +26,7 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    margin-left: 10%;
+    margin: 0 5px;
     align-items: center;
     font-size: medium;
 }
