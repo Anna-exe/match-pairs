@@ -107,6 +107,17 @@ main {
     transition: all .5s;
 }
 
+/* Blank card */
+.card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url('https://i.ibb.co/4K272ww/blank.webp');
+    background-size: 100%;
+    border-radius: 5%;
+    backface-visibility: hidden;
+}
+
 /* Card rotation */
 .cardOpen {
     transform: rotateY(180deg);
