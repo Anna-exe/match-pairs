@@ -36,3 +36,13 @@ header {
     max-height: 70px;
     padding-right: 10px;
 }
+
+/* Music control */
+#music-div button {
+    background-color: transparent;
+    color: antiquewhite;
+    padding-left: 15px;
+    border-style: none;
+    font-size: x-large;
+    cursor: pointer;
+}
