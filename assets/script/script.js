@@ -42,3 +42,7 @@ const cards = [
     {src: 'https://i.ibb.co/QnvC210/blonde-angel.webp', alt: 'blonde angel'},
     {src: 'https://i.ibb.co/NjcBtcx/dark-angel.webp', alt: 'dark angel'}
 ];
+cards.sort(
+    /** Shuffle cards */
+    function shuffle(){return 0.5 - Math.random()
+    });
