@@ -145,3 +145,12 @@ footer {
         gap:10px
     }
 }
+
+/* Media query: laptops and larger (1024px and up) */
+@media screen and (min-width: 1024px) {
+    #game {
+        width: 80vw;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
