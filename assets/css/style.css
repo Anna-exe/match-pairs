@@ -85,6 +85,13 @@ main {
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 5%;
+    margin: 2px;
+}
+
+.card img {
+    border-radius: inherit;
+    width: 100%;
 }
 
 /* Footer */
