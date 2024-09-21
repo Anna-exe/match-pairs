@@ -68,7 +68,20 @@ function loadCards(){
                     /** Matching */
                     function matching(){
                         let cardOpen = document.querySelectorAll('.cardOpen');
+                    if(document.querySelectorAll('.cardOpen').length > 1){
+                        // Check if two cards match
+                        if (cardOpen[0].innerHTML == cardOpen[1].innerHTML){
+                            cardOpen[0].classList.add('cardMatch')
+                            cardOpen[1].classList.add('cardMatch')
+        
+                            cardOpen[1].classList.remove('cardOpen')
+                            cardOpen[0].classList.remove('cardOpen')
 
+                        } else { // Close cards if not matched
+                            cardOpen[1].classList.remove('cardOpen')
+                            cardOpen[0].classList.remove('cardOpen')
+                        }
+                    }
                 },500)
             }
         }
