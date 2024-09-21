@@ -69,7 +69,6 @@ button:hover {
 main {
     /* Make main element take any surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 5%;
 }
 
 /* Separate game grid to match amount of cards */
