@@ -76,7 +76,12 @@ function loadCards(){
         
                             cardOpen[1].classList.remove('cardOpen')
                             cardOpen[0].classList.remove('cardOpen')
-
+        
+                            // Alert user if all cards are matched
+                            if(document.querySelectorAll('.cardMatch').length == cards.length){
+                                alert('You matched all cards!')
+                            }
+                            
                         } else { // Close cards if not matched
                             cardOpen[1].classList.remove('cardOpen')
                             cardOpen[0].classList.remove('cardOpen')
