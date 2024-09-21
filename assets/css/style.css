@@ -72,6 +72,14 @@ main {
     margin-top: 5%;
 }
 
+/* Separate game grid to match amount of cards */
+#game {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 5% 0;
+}
+ 
 /* Footer */
 footer {
     padding: 15px 0;
