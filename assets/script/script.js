@@ -67,6 +67,7 @@ function loadCards(){
                 setTimeout(
                     /** Matching */
                     function matching(){
+                        let cardOpen = document.querySelectorAll('.cardOpen');
 
                 },500)
             }
