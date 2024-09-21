@@ -71,3 +71,9 @@ main {
     flex: 1 0 auto;
     margin-top: 5%;
 }
+
+/* Footer */
+footer {
+    padding: 15px 0;
+    font-size: medium;
+}
