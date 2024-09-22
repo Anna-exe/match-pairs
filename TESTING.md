@@ -1,12 +1,12 @@
 # Testing Page Table of Contents
 * [**During Development Testing**](#during-development-testing)
-    * [*Manual Testing*](#manual-testing)
-    * [*Bugs and Fixes*](#bugs-and-fixes)
+    * [Manual Testing](#manual-testing)
+    * [Bugs and Fixes](#bugs-and-fixes)
 * [**Post Development Testing**](#post-development-testing)
   * [**Validators**](#validators)
-      * [*HTML*](#html---httpsvalidatorw3orgnu)
-      * [*CSS*](#css---httpsjigsaww3orgcss-validator)
-      * [*JS*](#JS---https://jshint.com)
+      * [HTML](#html---httpsvalidatorw3orgnu)
+      * [CSS](#css---httpsjigsaww3orgcss-validator)
+      * [JS](#JS---https://jshint.com)
   * [**Lighthouse Scores**](#lighthouse-scores)
   * [**Accessability**](#accessability)
   * [**Unfixed Bug**](#unfixed-bug)
@@ -19,7 +19,7 @@ During the development process, I was manually testing in the following ways:-
     
 2. Published the page via GitHub pages and shared with my friends.
 
-### ***Manual Testing:***
+### **Manual Testing:**
 * During testing, I used four different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
 
   1. Chrome
@@ -30,25 +30,25 @@ During the development process, I was manually testing in the following ways:-
 * I then used the devtools to simulate different screen sizes from 280px up to 1920px in width. 
 * In addition to this, I also tested it on my smartphone.
 
-### ***Bugs and Fixes:***
+### **Bugs and Fixes:**
 * No bugs found during development
 
 ## **Post Development Testing**
 ### **Validators**
 
-#### ***HTML*** - https://validator.w3.org/nu/
+#### **HTML** - https://validator.w3.org/nu/
 
 * No errors found
 
 ![HTML validator](/assets/images/readme-images/html-val.png)
 
-#### ***CSS*** - https://jigsaw.w3.org/css-validator/
+#### **CSS** - https://jigsaw.w3.org/css-validator/
 
 * No errors found
 
 ![CSS validator](/assets/images/readme-images/css-val.png)
 
-#### ***JS*** - https://jshint.com//
+#### **JS** - https://jshint.com//
 * Few missing semicolons, fixed
 * One undefined variable on line 28 "game", fixed it by moving variable definition to global scope
 
@@ -67,5 +67,7 @@ During the development process, I was manually testing in the following ways:-
 ![Lighthouse](/assets/images/readme-images/lighthouse.png)
 
   - Asked help on slack
+
+### **Unfixed bugs**
 
 [return to README.md](README.md)
