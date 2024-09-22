@@ -14,7 +14,7 @@ The site is responsive for all screen sizes
 * [**Site Overview**](#site-overview)
 * [**Planning stage**](#planning-stage)
 * [**Features**](#features)
-* [**Future-Enhancements**](#future-enhancements)
+* [**Future Enhancements**](#future-enhancements)
 * [**Testing Phase**](#testing-phase)
 * [**Deployment**](#deployment)
 * [**Forking the GitHub Repository**](#forking-the-gitHub-repository)
@@ -68,10 +68,60 @@ The site is responsive for all screen sizes
 
 ### Future enhancements
 * I would really love to create more features, like:
-    - Timer that gives limited time to find all cards
+    - Timer that gives limited time to match all cards
     - Add sound effects on every click on the card, buttons and any changes on the page
     - Add mute sound and volume control feature
     - Score that shows how many steps were done to match the cards
     - Apply some magical animation effects on flipping the cards
     - Create more boards with different artworks
+
+
+### Testing Phase
+* 
+
+## Deployment
+
+### Version Control
+-   The site was created using Gitpod editor and pushed to Github to the remote repository 'match-pairs'.
+-   Git commands were used throughout the development to push the code to the remote repository. The following git commands were used:
+    -   git add . - to add the files to the staging area before being committed.
+    -   git commit -m "commit message" - to commit changes to the local repository queue that are ready for the final step.
+    -   git push - to push all committed code to the remote repository on Github.
+
+### Forking the GitHub Repository
+By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
+
+1. Log in to GitHub and locate [GitHub Repository capital-cities](https://github.com/Anna-exe/match-pairs)
+2. At the top of the Repository(under the main navigation) locate "Fork" button.
+3. Now you should have a copy of the original repository in your GitHub account.
+
+### Local Clone
+-   Go to the Github repository that you want to clone
+-   Click on the Code button located above all the project files
+-   Click on HTTPS and copy the repository link
+-   Open the IDE of your choice and and paste the copied git url into the IDE terminal
+-   The project is now created as a local clone
+
+### Credits
+* Special thanks to:
+    - Mentor Spencer Bariball
+    - IoanZaharia_5p_Lead on Slack 
+
+* Frameworks, Libraries & Programs Used
+
+    - Git - For version control.
+
+    - Gitpod - To work on website as workspace.
+
+    - Github - To save and store the files for the website.
+
+    - Google Fonts - To import the fonts used on the website.
+
+    - Font Awesome - For the iconography on the website.
+
+    - Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and 
+    styling.
+    - Convert images to webp [Birme](https://www.birme.net/)
+
+    * Content
     
