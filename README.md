@@ -9,22 +9,31 @@ The site is responsive for all screen sizes
 
 ![Screenshot of the website on different devices](assets/images/readme-images/mockup.png)
 
-## Table of Contents
 
--   [User Experience](#user-experience)
--   [Features](#features)
--   [Design](#design)
--   [Installation](#installation)
--   [Testing](#testing)
--   [Bugs](#bugs)
--   [Deployment](#deployment)
--   [Credits](#credits)
+## Table of contents:
+1. [**Site Overview**](#site-overview)
+2. [**Planning stage**](#planning-stage)
+3. [**Features**](#features)
+4. [**Key features**](#page-content-features)
+5. [**Future-Enhancements**](#future-enhancements)
+6. [**Testing Phase**](#testing-phase)
+7. [**Deployment**](#deployment)
+8. [**Forking the GitHub Repository**](#forking-the-gitHub-repository)
+9. [**Local Clone**](#local-clone)
+10. [**Credits**](#credits)
 
-### User Experience
-* From Match Pair game user would expect:
+### Planning stage
+* Target audiences:
+    - Individuals who have interest for short online games that is training their memory
+    - Individuals who see beauty in dark fantasy arts
+    - Individuals who love ambient background music that is giving an immersive experience playing the game
 
--   Appealing design
--   Game to be easy to start
--   Understand the rules from a first sight
--   Easy to manipulate through the game
--   Recieve a reward message
+* As a user, I would expect:
+    - Undestanding what is this website about from first seconds
+    - Design that would please the eye
+    - Understand the rules of game quickly
+    - Game to be easy to start
+    - Easy to manipulate through the game
+    - Recieve a reward message on competition
+    - Button to restart a game
+
