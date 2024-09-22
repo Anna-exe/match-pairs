@@ -91,6 +91,7 @@ main {
     left: 5%;
     right: 5%;
     padding: 20px;
+    display: none;
 }
 
 #overlay {
@@ -102,6 +103,7 @@ main {
     background: rgb(68 16 69 / 37%);
     transition: opacity 0.3s ease;
     backdrop-filter: blur(1px);
+    display: none;
 }
 
 /* Cards styling */
