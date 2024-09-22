@@ -51,4 +51,4 @@ During the development process, I was manually testing in the following ways:-
 ![CSS validator](/assets/images/readme-images/css-val.png)
 
 #### ***JS*** - https://jshint.com//
-
+* Few missing semicolons
