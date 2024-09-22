@@ -41,6 +41,8 @@ The site is responsive for all screen sizes
     ![Wireframe screenshot](/assets/images/readme-images/wireframe.png)
 
 ### Features
-* Header
-
+* Header consists of:
+    - Logo icon that represents picture of card game
+    - Name of the game
+    - Backgound music controls for immersive experience
 ![Header screenshot](assets/images/readme-images/header.png)
