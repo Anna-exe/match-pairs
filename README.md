@@ -22,6 +22,8 @@ The site is responsive for all screen sizes
 * [**Credits**](#credits)
 
 ### Planning stage
+* Website goal:
+    **Create a stress-free online game that offers players to improve their cognitive abilities in a fun and relaxing environment**
 * Target audiences:
     - Individuals who have interest for short online games that is training their memory
     - Individuals who see beauty in dark fantasy arts
