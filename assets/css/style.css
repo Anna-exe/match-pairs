@@ -79,6 +79,19 @@ main {
     padding: 3% 0;
 }
 
+/* Win div pop up */
+#win {
+    position: absolute;
+    z-index: 99;
+    background-color: #170932c4;
+    box-shadow: 0 0 10px blueviolet;
+    border-radius: 50px;
+    align-content: center;
+    top: 50%;
+    left: 5%;
+    right: 5%;
+    padding: 20px;
+}
 /* Cards styling */
 .card {
     position: relative;
