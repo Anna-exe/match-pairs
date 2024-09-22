@@ -28,11 +28,11 @@ function reset() {
 	game.innerHTML = '';
 	loadCards();
 }
-
+var game = document.getElementById('game');
 /** Load cards */
 function loadCards() {
 	document.getElementById('win-container').style.display = 'none';
-	var game = document.getElementById('game');
+
 	const cards = [{
 			src: 'https://i.ibb.co/YRRFR6v/warrior.webp',
 			alt: 'warrior'
