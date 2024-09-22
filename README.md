@@ -37,3 +37,6 @@ The site is responsive for all screen sizes
     - Recieve a reward message on competition
     - Button to restart a game
 
+* Wireframe
+    - The wireframe was created in Paint
+    ![Wireframe screenshot](/assets/images/readme-images/wireframe.png)
