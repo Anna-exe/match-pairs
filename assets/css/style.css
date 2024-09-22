@@ -132,6 +132,14 @@ footer {
     font-size: medium;
 }
 
+/* 404 page */
+#error h1{
+    font-size: 5em;
+}
+#error {
+    margin:auto;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px)  {
     header{
