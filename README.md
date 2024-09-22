@@ -77,7 +77,7 @@ The site is responsive for all screen sizes
 
 
 ### Testing Phase
-* 
+* Please find all details in [Testing page](/TESTING.md)
 
 ## Deployment
 
