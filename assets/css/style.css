@@ -175,9 +175,9 @@ footer {
     }
     #game {
         width:80vw;
-        gap:10px
+        gap: 10px
     }
-    #win {
+    #win-message {
         left: 20%;
         right: 20%;
     }
@@ -190,7 +190,7 @@ footer {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
-    #win {
+    #win-message {
         left: 30%;
         right: 30%;
     }
