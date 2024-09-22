@@ -52,3 +52,10 @@ The site is responsive for all screen sizes
     - Cards turned with backface to player
     - Game that checks if card matches the chosen image
 ![Game screenshot](/assets/images/readme-images/game.png)
+
+* Winning window:
+    - Appears when player matched all cards
+    - Blurs the background to make player focus on pop up element
+    - Provides player with winning message
+    - Restart button gives opportunity to start new game with freshly shuffled cards
+![Win screenshot](assets/images/readme-images/)
