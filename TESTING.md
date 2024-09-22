@@ -8,8 +8,6 @@
       * [*CSS*](#css---httpsjigsaww3orgcss-validator)
       * [*JS*](#JS---https://jshint.com)
   * [**Lighthouse Scores**](#lighthouse-scores)
-      * [*Mobile Version*](#mobile-version)
-      * [*Desktop Version:*](#desktop-version)
   * [**Accessability**](#accessability)
   * [**Unfixed Bug**](#unfixed-bug)
 
@@ -53,6 +51,11 @@ During the development process, I was manually testing in the following ways:-
 #### ***JS*** - https://jshint.com//
 * Few missing semicolons, fixed
 * One undefined variable on line 28 "game", fixed it by moving variable definition to global scope
+
+### **Accessability**
+* [Web accessability evaluation tool](https://wave.webaim.org/) returned no errors
+
+![Wave accessability](/assets/images/readme-images/accessability.png)
 
 ### **Lighthouse Scores**
 * I did all lighthouse tests in incognito mode to avoid interference from browser extensions. 
