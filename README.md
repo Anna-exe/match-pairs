@@ -54,8 +54,8 @@ The site is responsive for all screen sizes
 ![Game screenshot](/assets/images/readme-images/game.png)
 
 * Winning window:
-    - Appears when player matched all cards
+    - Appears when player matches all cards
     - Blurs the background to make player focus on pop up element
     - Provides player with winning message
     - Restart button gives opportunity to start new game with freshly shuffled cards
-![Win screenshot](assets/images/readme-images/)
+![Win screenshot](/assets/images/readme-images/win.png)
