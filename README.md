@@ -110,18 +110,28 @@ By forking the repository, we make a copy of the original repository on our GitH
 * Frameworks, Libraries & Programs Used
 
     - Git - For version control.
-
     - Gitpod - To work on website as workspace.
-
     - Github - To save and store the files for the website.
-
     - Google Fonts - To import the fonts used on the website.
-
     - Font Awesome - For the iconography on the website.
-
     - Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and 
     styling.
     - Convert images to webp [Birme](https://www.birme.net/)
+    - Photoshop to create mock-up image
 
-    * Content
-    
+* Content
+    -   The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+    -   The Favicon in the Title of the page was taken from free source and I used Photoshop to style it [Favicon](https://www.vectorstock.com/)
+    -   The layout and design of website was inspired by:
+        - To create grid [Grid Garden Game](https://codepip.com/games/grid-garden/)
+        - Background music media controls from fellow student repository [Astro with me](https://github.com/preeticancode/astro-with-me/)
+        - Code examples [Geeks for Geeks](https://www.geeksforgeeks.org/), [Stack Overflow]https://stackoverflow.com/, [w3schools]https://www.w3schools.com/, [Youtube](https:/youtube.com/)
+
+* Media
+    - [Background image](https://www.bhmpics.com/)
+    - Card artwork: 
+        - https://www.youtube.com/watch?v=Hwm8Y73ZOeE
+        - https://images.app.goo.gl/4mUPeYXFV5kF4E6b9
+        - https://www.youtube.com/@athenaiv
+        - https://www.youtube.com/@Eternal_Warriors
+        - https://rare-gallery.com/
