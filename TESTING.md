@@ -57,7 +57,12 @@ During the development process, I was manually testing in the following ways:-
 ### **Lighthouse Scores**
 * I did all lighthouse tests in incognito mode to avoid interference from browser extensions. 
 * I ran the tests for both mobile and desktop. 
+- No errors found
+- Got bad scores on lighthouse with the main issue being **Largest Contentful Paint element 13,430 ms**
 
+![Mobile lighthouse](/assets/images/readme-images/lighthouse-mobile.png)
+![Lighthouse](/assets/images/readme-images/lighthouse.png)
 
+  - Asked help on slack
 
 [return to README.md](README.md)
