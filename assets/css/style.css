@@ -164,6 +164,10 @@ footer {
         width:80vw;
         gap:10px
     }
+    #win {
+        left: 20%;
+        right: 20%;
+    }
 }
 
 /* Media query: laptops and larger (1024px and up) */
@@ -172,5 +176,9 @@ footer {
         width: 80vw;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+    }
+    #win {
+        left: 30%;
+        right: 30%;
     }
 }
