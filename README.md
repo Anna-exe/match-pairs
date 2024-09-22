@@ -11,32 +11,36 @@ The site is responsive for all screen sizes
 
 
 ## Table of contents:
-1. [**Site Overview**](#site-overview)
-2. [**Planning stage**](#planning-stage)
-3. [**Features**](#features)
-4. [**Key features**](#page-content-features)
-5. [**Future-Enhancements**](#future-enhancements)
-6. [**Testing Phase**](#testing-phase)
-7. [**Deployment**](#deployment)
-8. [**Forking the GitHub Repository**](#forking-the-gitHub-repository)
-9. [**Local Clone**](#local-clone)
-10. [**Credits**](#credits)
+[**Site Overview**](#site-overview)
+[**Planning stage**](#planning-stage)
+[**Features**](#features)
+[**Future-Enhancements**](#future-enhancements)
+[**Testing Phase**](#testing-phase)
+[**Deployment**](#deployment)
+[**Forking the GitHub Repository**](#forking-the-gitHub-repository)
+[**Local Clone**](#local-clone)
+[**Credits**](#credits)
 
 ### Planning stage
 * Target audiences:
     - Individuals who have interest for short online games that is training their memory
     - Individuals who see beauty in dark fantasy arts
-    - Individuals who love ambient background music that is giving an immersive experience playing the game
+    - Individuals who love ambient music that is giving an immersive experience while playing the game
 
 * As a user, I would expect:
     - Undestanding what is this website about from first seconds
     - Design that would please the eye
     - Understand the rules of game quickly
     - Game to be easy to start
-    - Easy to manipulate through the game
+    - Easy to manipulate throughout the game
     - Recieve a reward message on competition
     - Button to restart a game
 
 * Wireframe
-    - The wireframe was created in Paint
+
     ![Wireframe screenshot](/assets/images/readme-images/wireframe.png)
+
+### Features
+* Header
+
+![Header screenshot](assets/images/readme-images/header.png)
