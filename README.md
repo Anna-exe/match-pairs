@@ -11,15 +11,15 @@ The site is responsive for all screen sizes
 
 
 ## Table of contents:
-[**Site Overview**](#site-overview)
-[**Planning stage**](#planning-stage)
-[**Features**](#features)
-[**Future-Enhancements**](#future-enhancements)
-[**Testing Phase**](#testing-phase)
-[**Deployment**](#deployment)
-[**Forking the GitHub Repository**](#forking-the-gitHub-repository)
-[**Local Clone**](#local-clone)
-[**Credits**](#credits)
+* [**Site Overview**](#site-overview)
+* [**Planning stage**](#planning-stage)
+* [**Features**](#features)
+* [**Future-Enhancements**](#future-enhancements)
+* [**Testing Phase**](#testing-phase)
+* [**Deployment**](#deployment)
+* [**Forking the GitHub Repository**](#forking-the-gitHub-repository)
+* [**Local Clone**](#local-clone)
+* [**Credits**](#credits)
 
 ### Planning stage
 * Target audiences:
@@ -46,3 +46,9 @@ The site is responsive for all screen sizes
     - Name of the game
     - Backgound music controls for immersive experience
 ![Header screenshot](assets/images/readme-images/header.png)
+
+* Game container:
+    - Rule of the game
+    - Cards turned with backface to player
+    - Game that checks if card matches the chosen image
+![Game screenshot](/assets/images/readme-images/game.png)
