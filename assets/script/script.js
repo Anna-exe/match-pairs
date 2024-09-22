@@ -31,6 +31,7 @@ function reset(){
 
 /** Load cards */
 function loadCards(){
+    document.getElementById('win-container').style.display = 'none';
     var game = document.getElementById('game');
     const cards = [
         {src: 'https://i.ibb.co/YRRFR6v/warrior.webp', alt: 'warrior'},
@@ -83,9 +84,9 @@ function loadCards(){
                             cardOpen[1].classList.remove('cardOpen')
                             cardOpen[0].classList.remove('cardOpen')
         
-                            // Alert user if all cards are matched
+                            // Display win message if all cards are matched
                             if(document.querySelectorAll('.cardMatch').length == cards.length){
-                                alert('You matched all cards!')
+                                document.getElementById('win-container').style.display = 'block';
                             }
 
                         } else { // Close cards if not matched

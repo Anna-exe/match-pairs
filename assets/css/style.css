@@ -80,7 +80,19 @@ main {
 }
 
 /* Win div pop up */
-#win {
+#win-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(68 16 69 / 37%);
+    transition: opacity 0.3s ease;
+    backdrop-filter: blur(1px);
+    display: none;
+}
+
+#win-message {
     position: absolute;
     z-index: 99;
     background-color: #000000b3;
@@ -91,19 +103,6 @@ main {
     left: 5%;
     right: 5%;
     padding: 20px;
-    display: none;
-}
-
-#overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(68 16 69 / 37%);
-    transition: opacity 0.3s ease;
-    backdrop-filter: blur(1px);
-    display: none;
 }
 
 /* Cards styling */
