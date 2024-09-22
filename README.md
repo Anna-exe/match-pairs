@@ -126,7 +126,7 @@ By forking the repository, we make a copy of the original repository on our GitH
     -   The layout and design of website was inspired by:
         - To create grid [Grid Garden Game](https://codepip.com/games/grid-garden/)
         - Background music media controls from fellow student repository [Astro with me](https://github.com/preeticancode/astro-with-me/)
-        - Code examples [Geeks for Geeks](https://www.geeksforgeeks.org/), [Stack Overflow]https://stackoverflow.com/, [w3schools]https://www.w3schools.com/, [Youtube](https:/youtube.com/)
+        - Code examples [Geeks for Geeks](https://www.geeksforgeeks.org/), [Stack Overflow](https://stackoverflow.com/), [w3schools](https://www.w3schools.com/), [Youtube](https:/youtube.com/)
 
 * Media
     - Background image [BHMpics](https://www.bhmpics.com/)
