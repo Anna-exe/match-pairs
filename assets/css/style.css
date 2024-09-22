@@ -92,6 +92,17 @@ main {
     right: 5%;
     padding: 20px;
 }
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(68 16 69 / 37%);
+    transition: opacity 0.3s ease;
+}
+
 /* Cards styling */
 .card {
     position: relative;
