@@ -51,4 +51,13 @@ During the development process, I was manually testing in the following ways:-
 ![CSS validator](/assets/images/readme-images/css-val.png)
 
 #### ***JS*** - https://jshint.com//
-* Few missing semicolons
+* Few missing semicolons, fixed
+* One undefined variable on line 28 "game", fixed it by moving variable definition to global scope
+
+### **Lighthouse Scores**
+* I did all lighthouse tests in incognito mode to avoid interference from browser extensions. 
+* I ran the tests for both mobile and desktop. 
+
+
+
+[return to README.md](README.md)
