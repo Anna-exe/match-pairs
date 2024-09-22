@@ -2,7 +2,7 @@
 window.onload = () => {
     musicControls();
     loadCards();
-}
+};
 
 /** Music controls */
 function musicControls() {
@@ -53,7 +53,7 @@ function loadCards(){
     ];
     cards.sort(
         /** Shuffle cards */
-        function shuffle(){return 0.5 - Math.random()
+        function shuffle(){return 0.5 - Math.random();
         });
 
         cards.forEach(
@@ -78,11 +78,11 @@ function loadCards(){
                     if(document.querySelectorAll('.cardOpen').length > 1){
                         // Check if two cards match
                         if (cardOpen[0].innerHTML == cardOpen[1].innerHTML){
-                            cardOpen[0].classList.add('cardMatch')
-                            cardOpen[1].classList.add('cardMatch')
+                            cardOpen[0].classList.add('cardMatch');
+                            cardOpen[1].classList.add('cardMatch');
         
-                            cardOpen[1].classList.remove('cardOpen')
-                            cardOpen[0].classList.remove('cardOpen')
+                            cardOpen[1].classList.remove('cardOpen');
+                            cardOpen[0].classList.remove('cardOpen');
         
                             // Display win message if all cards are matched
                             if(document.querySelectorAll('.cardMatch').length == cards.length){
@@ -90,10 +90,10 @@ function loadCards(){
                             }
 
                         } else { // Close cards if not matched
-                            cardOpen[1].classList.remove('cardOpen')
-                            cardOpen[0].classList.remove('cardOpen')
+                            cardOpen[1].classList.remove('cardOpen');
+                            cardOpen[0].classList.remove('cardOpen');
                         }
                     }
-                },500)
+                },500);
             }
         }
