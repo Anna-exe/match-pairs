@@ -33,70 +33,23 @@ var game = document.getElementById('game');
 function loadCards() {
 	document.getElementById('win-container').style.display = 'none';
 
-	const cards = [{
-			src: 'https://i.ibb.co/YRRFR6v/warrior.webp',
-			alt: 'warrior'
-		},
-		{
-			src: 'https://i.ibb.co/QkWbTqJ/silent-angel.webp',
-			alt: 'silent angel'
-		},
-		{
-			src: 'https://i.ibb.co/0YX9b8d/sauron.webp',
-			alt: 'sauron'
-		},
-		{
-			src: 'https://i.ibb.co/V01BQWN/goddess.webp',
-			alt: 'goddess'
-		},
-		{
-			src: 'https://i.ibb.co/1z6nmgJ/ghost.webp',
-			alt: 'ghost'
-		},
-		{
-			src: 'https://i.ibb.co/cQR9PfW/druid.webp',
-			alt: 'druid'
-		},
-		{
-			src: 'https://i.ibb.co/QnvC210/blonde-angel.webp',
-			alt: 'blonde angel'
-		},
-		{
-			src: 'https://i.ibb.co/NjcBtcx/dark-angel.webp',
-			alt: 'dark angel'
-		},
-		{
-			src: 'https://i.ibb.co/YRRFR6v/warrior.webp',
-			alt: 'warrior'
-		},
-		{
-			src: 'https://i.ibb.co/QkWbTqJ/silent-angel.webp',
-			alt: 'silent angel'
-		},
-		{
-			src: 'https://i.ibb.co/0YX9b8d/sauron.webp',
-			alt: 'sauron'
-		},
-		{
-			src: 'https://i.ibb.co/V01BQWN/goddess.webp',
-			alt: 'goddess'
-		},
-		{
-			src: 'https://i.ibb.co/1z6nmgJ/ghost.webp',
-			alt: 'ghost'
-		},
-		{
-			src: 'https://i.ibb.co/cQR9PfW/druid.webp',
-			alt: 'druid'
-		},
-		{
-			src: 'https://i.ibb.co/QnvC210/blonde-angel.webp',
-			alt: 'blonde angel'
-		},
-		{
-			src: 'https://i.ibb.co/NjcBtcx/dark-angel.webp',
-			alt: 'dark angel'
-		}
+	const cards = [
+		{src: 'assets/images/warrior.webp', alt: 'warrior'},
+        {src: 'assets/images/silent-angel.webp', alt: 'silent angel'},
+        {src: 'assets/images/sauron.webp', alt: 'sauron'},
+        {src: 'assets/images//goddess.webp', alt: 'goddess'},
+        {src: 'assets/images/ghost.webp', alt: 'ghost'},
+        {src: 'assets/images/druid.webp', alt: 'druid'},
+        {src: 'assets/images/blonde-angel.webp', alt: 'blonde angel'},
+        {src: 'assets/images/dark-angel.webp', alt: 'dark angel'},
+		{src: 'assets/images/warrior.webp', alt: 'warrior'},
+        {src: 'assets/images/silent-angel.webp', alt: 'silent angel'},
+        {src: 'assets/images/sauron.webp', alt: 'sauron'},
+        {src: 'assets/images//goddess.webp', alt: 'goddess'},
+        {src: 'assets/images/ghost.webp', alt: 'ghost'},
+        {src: 'assets/images/druid.webp', alt: 'druid'},
+        {src: 'assets/images/blonde-angel.webp', alt: 'blonde angel'},
+        {src: 'assets/images/dark-angel.webp', alt: 'dark angel'}
 	];
 	cards.sort(
 		/** Shuffle cards */
