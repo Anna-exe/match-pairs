@@ -31,12 +31,12 @@ The site is responsive for all screen sizes
     - Individuals who love ambient music that is giving an immersive experience while playing the game
 
 * As a user, I would expect:
-    - Undestanding what is this website about from first seconds
+    - Understanding what is this website about from first seconds
     - Design that would please the eye
     - Understand the rules of game quickly
     - Game to be easy to start
     - Easy to manipulate throughout the game
-    - Recieve a reward message on competition
+    - Receive a reward message on competition
     - Button to restart a game
 
 * Wireframe
@@ -47,7 +47,7 @@ The site is responsive for all screen sizes
 * Header consists of:
     - Logo icon that represents picture of card game
     - Name of the game
-    - Backgound music controls for immersive experience
+    - Background music controls for immersive experience
 
     ![Header screenshot](/assets/images/readme-images/header.png)
 
@@ -92,7 +92,7 @@ The site is responsive for all screen sizes
 By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
 
 1. Log in to GitHub and locate [GitHub Repository capital-cities](https://github.com/Anna-exe/match-pairs)
-2. At the top of the Repository(under the main navigation) locate "Fork" button.
+2. At the top of the Repository(under the main navigation) locate the "Fork" button.
 3. Now you should have a copy of the original repository in your GitHub account.
 
 ### Local Clone
@@ -110,7 +110,7 @@ By forking the repository, we make a copy of the original repository on our GitH
 * Frameworks, Libraries & Programs Used
 
     - Git - For version control.
-    - Gitpod - To work on website as workspace.
+    - Gitpod - To work on a website as a workspace.
     - Github - To save and store the files for the website.
     - Google Fonts - To import the fonts used on the website.
     - Font Awesome - For the iconography on the website.
