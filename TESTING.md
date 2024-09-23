@@ -4,9 +4,9 @@
     * [Bugs and Fixes](#bugs-and-fixes)
 * [**Post Development Testing**](#post-development-testing)
   * [**Validators**](#validators)
-      * [HTML](#html---httpsvalidatorw3orgnu)
-      * [CSS](#css---httpsjigsaww3orgcss-validator)
-      * [JavaScript](#JS---https://jshint.com)
+      * [HTML](#html)
+      * [CSS](#css)
+      * [JavaScript](#JS)
   * [**Lighthouse Scores**](#lighthouse-scores)
   * [**Accessability**](#accessability)
   * [**Unfixed Bug**](#unfixed-bug)
@@ -59,9 +59,9 @@ During the development process, I was manually testing in the following ways:-
 
 
 ### **Accessability**
-* [Web accessability evaluation tool](https://wave.webaim.org/) returned no errors
+* [Web accessibility evaluation tool](https://wave.webaim.org/) returned no errors
 
-![Wave accessability](/assets/images/readme-images/accessability.png)
+![Wave accessibility](/assets/images/readme-images/accessability.png)
 
 ### **Lighthouse Scores**
 * I did all lighthouse tests in incognito mode to avoid interference from browser extensions. 
@@ -69,7 +69,7 @@ During the development process, I was manually testing in the following ways:-
 - No errors found
 - Got performance scores of 60-69 with the main issue being **Largest Contentful Paint element 13,430 ms**
 
-![Desktop ighthouse](/assets/images/readme-images/lighthouse.png)
+![Desktop lighthouse](/assets/images/readme-images/lighthouse.png)
 ![Mobile lighthouse](/assets/images/readme-images/lighthouse-mobile.png)
 
   - Asked help on slack
@@ -83,7 +83,7 @@ During the development process, I was manually testing in the following ways:-
 ### **Unfixed bugs**
 
 - When doing a hard refresh, the user can see the face of cards for a short moment, it could be resolved by following the performance issue advice from lighthouse.
-- To resolve performance issue I could display all card images in HTML page, but this project was specifically JavaScript, so with the advice of my mentor and slack community, I displayed images with help of JS array.
+- To resolve performance issues I could display all card images in an HTML page, but this project was specifically JavaScript, so with the advice of my mentor and slack community, I displayed images with help of JS array.
 
 
 [return to README.md](README.md)
